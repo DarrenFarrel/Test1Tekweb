@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(245, 245, 245);
+  }
+  .kanban-header {
+    background-color: #85e0ff;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .kanban-view {
+    padding: 15px;
+  }
+  .kanban-column h6 {
+    text-align: center;
+    border-radius: 12px;
+    background-color: grey;
+    color: white;
+    padding: 6px;
+  }
+  .kanban-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .kanban-table th,
+  .kanban-table td {
+    width: 15%;
+    padding: 10px;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    text-align: center;
+  }
+  .kanban-table th{
+    background-color: rgb(238, 238, 238);
+  }
+  .kanban-board {
+    min-height: 500px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  .card {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #54a7ff;
+  }
+  .add-task-form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid black;
+  }
+  .task-form-header {
+    background-color: #42d0ff;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+   /* Untuk costum scroll bar hehe */
+::-webkit-scrollbar {
+  width: 30px;
+}
+::-webkit-scrollbar-track {
+  background: #ff0000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #220aff;
+} 
+  
